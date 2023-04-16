@@ -1,0 +1,24 @@
+.contact-window{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+    margin: 50px 0px;
+    border: 2px solid #000;
+    width: 30vw;
+    padding: 40px;
+    font-size: 25px;
+    input{
+        padding: 10px 50px 10px 10px;
+        width: 15vw;
+    }
+    input:last-child{
+        height: 10vh;
+    }
+}

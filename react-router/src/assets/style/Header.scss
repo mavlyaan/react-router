@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    border-bottom: 1px solid #fff;
+    .nav nav ul{
+        display: flex;
+        li{
+            list-style: none;
+            margin-right: 10px;
+            a{
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}

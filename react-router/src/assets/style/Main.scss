@@ -1,0 +1,15 @@
+.main{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    height: 100vh;
+    .info{
+        width: 50%;
+    }
+}
+.image img{
+    width: 100%;
+}
